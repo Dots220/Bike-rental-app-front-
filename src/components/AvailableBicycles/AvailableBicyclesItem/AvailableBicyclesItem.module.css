@@ -1,0 +1,35 @@
+.availableBicycleBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 80px;
+    width: 90%;
+    margin: 10px;
+}
+
+.yourRentInfo{
+    margin: 64px!important;
+}
+
+.buttonContainer{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 62px!important;
+}
+
+.deleteButton{
+    height: 60%;
+    background-color: brown!important;
+    width: 116px;
+    margin-left: 20px!important;
+}
+
+.rentButton{
+    height: 60%;
+    background-color: #2929cc !important;
+    width: 116px;
+}

@@ -1,0 +1,21 @@
+
+.RentBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 80px;
+    width: 90%;
+    margin: 10px;
+}
+
+.yourRentInfo{
+    margin: 64px!important;
+}
+
+.cancelButton{
+    height: 60%;
+    background-color: brown!important;
+    right: 62px!important;
+    width: 116px;
+}

@@ -2,6 +2,7 @@ import classes from "./bikeRental.module.css";
 import React from 'react';
 import {Button, FormControl, InputLabel, MenuItem, Select, TextField} from "@material-ui/core";
 import RentList from "../components/YourRent/YourRentList/RentList";
+import AvailableBicyclesList from "../components/AvailableBicycles/AvailableBicyclesList/AvailableBicyclesList";
 
 function BikeRental() {
     return (
@@ -41,6 +42,8 @@ function BikeRental() {
                 </div>
 
                 <RentList/>
+
+                <AvailableBicyclesList/>
 
             </div>
 
