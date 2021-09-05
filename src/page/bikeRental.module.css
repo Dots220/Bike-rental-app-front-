@@ -1,0 +1,109 @@
+.root {
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c5c5c5;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #d07803;
+    width: 70%;
+    height: 90%;
+
+}
+
+.head {
+    color: #262626;
+    text-align: left;
+    padding: 20px;
+    font-weight:bold;
+    font-size: 14pt;
+    width: 90%;
+
+}
+
+.newRentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.newRentTitle{
+    text-align: left;
+    width: 90%;
+    padding: 13px;
+}
+
+.newRentBlock{
+    display: flex;
+    justify-content: space-around;
+    background-color: #bebdbd;
+    height: 80px;
+    width: 90%;
+    align-items: center;
+}
+
+.bikeName {
+    background-color: #ffffff;
+}
+
+.bikeType{
+    background-color: white;
+    width: 10%;
+
+}
+
+.rentPrice{
+    background-color: #ffffff;
+
+}
+
+.rentButton{
+    height: 60%;
+    background-color: #4ad04a!important;
+}
+
+.yourRentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.yourRentTitle{
+    text-align: left;
+    width: 90%;
+    padding: 13px;
+}
+
+.yourRentBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 80px;
+    width: 90%;
+}
+
+.yourRentInfo{
+    background-color: #61dafb;
+}
+
+.cancelButton{
+    height: 60%;
+
+    background-color: brown!important;
+}
+

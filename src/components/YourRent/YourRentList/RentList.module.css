@@ -1,0 +1,34 @@
+.yourRentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+
+}
+
+.yourRentTitle{
+    text-align: left;
+    width: 90%;
+    padding: 13px;
+}
+
+.yourRentBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 80px;
+    width: 90%;
+}
+
+.yourRentInfo{
+    background-color: #61dafb;
+}
+
+.cancelButton{
+    height: 60%;
+
+    background-color: brown!important;
+}
